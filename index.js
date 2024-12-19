@@ -48,9 +48,8 @@ console.log(KareninAlani(10));
 	4. Hesaplanan çemberin çevresi döndürülecektir.
 */
 
-function CemberinCevresi(yaricap) {
-  return 2 * pi * yaricap;
-}
+const CemberinCevresi = yaricap => 2 * pi * yaricap;
+
 console.log(CemberinCevresi(5));
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
